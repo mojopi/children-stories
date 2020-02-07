@@ -8,6 +8,11 @@
 
 <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+
+
 
 	<title>Stories By Kids For Kids</title>
 
@@ -16,22 +21,22 @@
 		body{
 /*			background-color:rgba(5,184,204, 0.8);
 */			margin:0;
-			background-image:url(./imgs/construction-paper1.png);
-			opacity:0.9;
+			background-image:url(https://www.lefthudson.com/wp-content/uploads/2019/11/lined-paper-backgrounds-beautiful-35-lined-paper-textures-for-designerscreative-can-inspiration-of-lined-paper-backgrounds.jpg);
 		}
 
 		#about{
 			  text-shadow: 2px 2px 4px #000000;
-	
-/*  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-*/		padding:2%;
+	padding:2%;
 			width:100%;
 /*			font-family: 'Fredoka One', cursive;
-*/			font-size:40px;
-			color:white;
+*/			font-size:80px;
+			color:rgb(40,40,40);
 /*			font-family: 'Luckiest Guy', cursive;
 */
-font-family: 'Mansalva', cursive;
+/*font-family: 'Mansalva', cursive;
+*/
+
+font-family: 'Cabin Sketch', cursive;
 
  
 		}
@@ -41,14 +46,13 @@ font-family: 'Mansalva', cursive;
 			left:5%;
 			position:absolute;
 			/*background-color: blue;*/
-background-image:url(./imgs/watercolor.png);
 		}
 		.book{
 box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
 			display:inline-block;
-			margin:10px;
-			width:300px;
-			height:250px;
+			margin:30px;
+			width:350px;
+			height:300px;
 			background-size:cover;
 			background-position:center;
 /*			background-color:red;
@@ -110,7 +114,7 @@ box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
 
 
 <div id="about">
-	<center>A collection of stories  <br> <span style="font-size:24px;">(made by young people for young people)</span></center>
+	<center>A collection of stories  <br> <span style="font-size:30px;">(made by young people for young people)</span></center>
 </div>
 
 <div id="container">
@@ -150,6 +154,30 @@ box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
 
 
 </div>
+
+<script type="text/javascript">
+
+
+		var books = document.getElementsByClassName("book");
+
+
+for (var i = 0; i < books.length; i++) {
+	if (i%2==0)
+	// var value = Math.sign(Math.round(Math.random()*90))
+  {books[i].style.transform = "rotate("+  Math.random()*30+"deg)"};
+
+  if (i%2==1) {books[i].style.transform = "rotate("+  Math.random()*-30+"deg)"};
+};
+
+
+	// books.forEach(element){
+	// 	function(element)
+	// 	{console.log(element)}
+		// {element.style.transform = "rotate("+ Math.round(Math.random()*360)+"deg)";};
+
+
+	
+</script>
 
 
 
